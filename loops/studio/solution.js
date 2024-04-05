@@ -14,6 +14,13 @@ function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
   let meals = [];
   
   /// Part A #2: Write a ``for`` loop inside this function
+  for (let i= 0; index < numMeals; i++) {
+   let newmeal = [];
+   for (let j= 0; j < pantry.length; j++ {
+    newmeal.push(pantry[j][i]);
+
+    
+  }
   /// Code your solution for part A #2 below this comment (and above the return statement) ... ///
 
 
@@ -25,7 +32,9 @@ function askForNumber() {
   numMeals = input.question("How many meals would you like to make?");
   
   /// CODE YOUR SOLUTION TO PART B here ///
-
+while (!numpass){
+  
+}
   return numMeals;
 }
 

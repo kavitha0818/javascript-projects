@@ -4,8 +4,23 @@
     c. Print the EVEN numbers 12 to -14 in descending order, one number per line.
     d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
 
+for (let index = 0; index <= 20; index++) {
+console.log(index)  
+}
+for (let index = 3; index <=29; index++) {
+  if(index % 2 != 0 )
+    console.log (index);
+}
+for (let index = 12; index >= -14; index-=2) {
+  console.log(index)
+  
+}
+for (let index = 50; index >= 20; index--) {
+  if(index % 3 == 0){
+  console.log(index);
+  }
 
-
+}
 
 /*Exercise #2: 
 Initialize two variables to hold the string “LaunchCode” and the array [1, 5, ‘LC101’, ‘blue’, 42].

@@ -8,10 +8,22 @@
 // 4. Below the function, define and initialize a variable to hold a string.
 // 5. Use console.log(reverseCharacters(myVariableName)); to call the function and verify that it correctly reverses the characters in the string.
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
+//hello
+function reverseCharacters(str) {
+    if(type Of str === 'Number') 
+
+    let newstrig = string(str)
+   return Number(newstrig.splice("")) reverse('');join('')
+    
+}
+let myVariableName = "launchcode"; /Users/kavitha/LaunchCode/javascript-projects/functions/studio/studio-functions.js
 
 // Part Two: Reverse Digits
 
 // 1. Add an if statement to reverseCharacters to check the typeof the parameter.
+
+
+
 // 2. If typeof is ‘string’, return the reversed string as before.
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
@@ -29,6 +41,15 @@
 let arrayTest1 = ['apple', 'potato', 'Capitalized Words'];
 let arrayTest2 = [123, 8897, 42, 1168, 8675309];
 let arrayTest3 = ['hello', 'world', 123, 'orange'];
+function CompleteReversal(){
+    let arr = [];
+    for(let i = 0; i< oldArr.length; i++){
+        arr.unshift(reverseCharacters(oldArr[i]))
+
+    }
+    return arr;
+    console.log(CompleteReversal(arraytest));
+}
 
 // Bonus Missions
 
