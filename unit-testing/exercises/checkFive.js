@@ -1,3 +1,5 @@
+const test = require('../checkFive.js');
+ const checkFive = require('../checkFive.js');
 function checkFive(num){
    let result = '';
    if (num < 5){
@@ -9,3 +11,32 @@ function checkFive(num){
    }
    return result;
  }
+ 
+
+ describe("checkFive", function(){
+
+    test("Descriptive feedback...", function() {
+       //code here...
+    });
+
+ });
+ const checkFive = require('../checkFive.js');
+
+ describe("checkFive", function(){
+
+    test("Descriptive feedback...", function(){
+       let output = checkFive(2);
+    });
+
+ });
+ const checkFive = require('../checkFive.js');
+
+ describe("checkFive", function(){
+
+    test("Descriptive feedback...", function(){
+       let output = checkFive(2);
+       expect(output).toEqual("2 is less than 5.");
+    });
+
+ });
+ console.log()

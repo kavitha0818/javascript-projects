@@ -34,3 +34,10 @@ function printTestScores(index,test,students,scores){
   }
   return;
 }
+
+// Define a function to print all
+function printAll() {
+  console.log("Printing all...");
+}
+
+

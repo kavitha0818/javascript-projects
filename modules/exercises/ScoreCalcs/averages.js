@@ -12,8 +12,12 @@ function averageForTest(testIndex,scores){
   for (let i=0; i<scores.length; i++){
     sum += scores[i][testIndex];
   }
-  let average = sum/scores[0].length;
+  let average = scores.length;
   return average;
 }
 
 //TODO: Export all functions within an object.
+module.exports = {
+  averageForStudent: averageForStudent,
+  averageForTest: averageForTest
+};
