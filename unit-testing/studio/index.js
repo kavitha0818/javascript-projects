@@ -11,10 +11,13 @@ let launchcode = {
       } if (num % 3 === 0) {
         output +=  'Code';  
       } if (num % 5 === 0) {
-        output +=  ' Rocks';
+        output +=  ' Rocks ';
       }
       else if (num % 2 != 0 && num % 3 != 0 && num % 5 != 0){
         return `Rutabagas! That doesn't work.`
+      }
+      if(num % 2 === 0 && num % 5 === 0 && num % 3 !=0 ) {
+        return `${output.trim()}! (CRASH!!!!)`;
       }
       return output.trim()+'!';
     }
