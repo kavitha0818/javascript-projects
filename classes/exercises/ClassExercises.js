@@ -14,7 +14,7 @@ class Book {
         this.timesCheckedOut += uses;
     }
 }
-
+// Define your Manual and Novel classes here:
 class Manual extends Book {
     constructor(title, author, copyright, isbn, pages, timesCheckedOut, discarded) {
         super(title, author, copyright, isbn, pages, timesCheckedOut, discarded);
@@ -38,36 +38,14 @@ class Novel extends Book {
         }
     }
 }
-
-
-// Define your Manual and Novel classes here:
-class Novel {
-    constructor(title, author, copyright, isbn, pages, timesCheckedOut, discarded) {
-    this.title = pride and prejudice;
-    this.author = Jane Austen;
-    this.copyright = 1813;
-    this.isbn = 1111111111111;
-    this.pages = 432;
-    this.timesCheckedOut = 32;
-    this.discarded = No;
-}
-
-};
-
-class Manual {
-    constructor(title, author, copyright, isbn, pages, timesCheckedOut, discarded) {
-    this.title = Top Secret Shuttle Building Manual ;
-    this.author = Redacted;
-    this.copyright = 2013;
-    this.isbn = 0000000000000;
-    this.pages = 1147;
-    this.timesCheckedOut = 1;
-    this.discarded = No;
-}
-};
-
-
 // Declare the objects for exercises 2 and 3 here:
+
+let prideAndPrejudice = new Novel('Pride and Prejudice','Jane Austen', 1813,1111111111111,432,32, 'No' );
+let makingTheShip = new Manual('Top Secret Shuttle Building Manual', 'Redacted', 2013 , '0000000000000', 1147,1, 'No');
 
 
 // Code exercises 4 & 5 here:
+let currentYear = new Date().getFullYear();
+makingTheShip.dispose(currentYear);
+prideAndPrejudice.checkout(5);
+console.log(makingTheShip,prideAndPrejudice);
