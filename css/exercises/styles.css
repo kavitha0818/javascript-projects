@@ -1,1 +1,32 @@
-/* Start adding your styling below! */ 
+body {
+    background-color: yellow;
+} 
+h1 {
+    font-size: 36px;
+    color: green;
+    
+}
+.center {
+
+    text-align:center;
+}
+
+ 
+ #list-color {
+    color: blueviolet;
+ }
+ <body>
+   <h1 class="center">My Very Cool Web Page</h1>
+   <h2 class="center">Why this Website is Very Cool</h2>
+   <ol>
+      <li>I made it!</li>
+      <li>This website is colorful!</li>
+   </ol>
+   <h2 class="center" id="cool-text"
+    #list-color{
+        color: blueviolet;
+    }
+      <h2  >Why I love Web Development </h2>
+   <p>Web Development is a very cool skill that I love learning!</p>
+   <p>I love making websites because all I have to do is reload the page to see the changes I have made!</p>
+</body>
